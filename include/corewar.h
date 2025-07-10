@@ -63,6 +63,7 @@ void write_4_bytes(unsigned char *mem, int index, int32_t value);
 void write_2_bytes(unsigned char *mem, int index, int16_t value);
 int32_t read_from_type(int type_and_offset[2], unsigned char *mem,
     int reg1);
+void check_alive(champ_proc_t *proc);
 int add_proc(champ_proc_t **current, champ_proc_t *proc, size_t pc);
 int new_offset(int params, int current_offset);
 int handle_eror(binaire_arg_t *arg, int ac, char **av);

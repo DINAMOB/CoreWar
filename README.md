@@ -1,6 +1,25 @@
+## ▶️ Utilisation
+
+```bash
+./corewar [-dump nbr_cycle] [[-n prog_number] [-a load_address] prog_name] ...
+```
+
+## 📖 Description des options
+
+- `-dump nbr_cycle` : Affiche la mémoire après `nbr_cycle` cycles d’exécution (sauf si la partie est déjà terminée).
+  La mémoire est affichée en hexadécimal, avec **32 octets par ligne** (ex. : `A0BCDEFE1DD3...`).
+
+- `-n prog_number` : Définit le **numéro du prochain programme** (champion).
+  Par défaut, le numéro libre suivant est attribué selon l’ordre des paramètres.
+
+- `-a load_address` : Définit **l’adresse de chargement** du programme suivant.
+  Si aucune adresse n’est spécifiée, les adresses sont **optimisées automatiquement** pour espacer les processus autant que possible.
+  Les adresses sont calculées en modulo de `MEM_SIZE`.
+
+
 # Corewar
 
-Corewar est un projet de première année à **Epitech**, réalisé dans le cadre de l'apprentissage de la programmation bas niveau en langage C.  
+Corewar est un projet de première année à **Epitech**, réalisé dans le cadre de l'apprentissage de la programmation bas niveau en langage C.
 Le projet a été développé en **4 semaines**, en **binôme** (groupe de 2 personnes).
 
 ## 🖥️ Environnement
