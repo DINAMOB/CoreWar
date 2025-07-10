@@ -48,4 +48,4 @@ Le projet peut être difficile à tester ou à exécuter correctement sans une c
 ## 👨‍💻 Auteurs
 
 - Antonie MOREL (contact: antonie.morel@epitech.eu)
-- brandon-jean-samuel BEGUE (contact: brandon-jean-samuel.begue@epitech.eu)
+- Brandon-Jean-Samuel BEGUE (contact: brandon-jean-samuel.begue@epitech.eu)
